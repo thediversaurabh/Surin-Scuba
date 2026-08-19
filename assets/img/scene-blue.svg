@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Open blue water with sunlight from the surface">
+  <defs>
+    <linearGradient id="wb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2ba0b8"/><stop offset="0.55" stop-color="#0e5a6e"/><stop offset="1" stop-color="#041a22"/></linearGradient>
+    <linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cff2f9" stop-opacity="0.4"/><stop offset="1" stop-color="#cff2f9" stop-opacity="0"/></linearGradient>
+    <radialGradient id="sb" cx="0.4" cy="-0.1" r="0.8"><stop offset="0" stop-color="#e7fbff" stop-opacity="0.5"/><stop offset="1" stop-color="#e7fbff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1920" height="900" fill="url(#wb)"/>
+  <rect width="1920" height="900" fill="url(#sb)"/>
+  <g opacity="0.4">
+    <polygon points="420,-40 560,-40 380,760 300,760" fill="url(#rb)"/>
+    <polygon points="820,-40 900,-40 840,700 760,700" fill="url(#rb)"/>
+    <polygon points="1200,-40 1320,-40 1240,720 1140,720" fill="url(#rb)"/>
+    <polygon points="1560,-40 1640,-40 1660,680 1580,680" fill="url(#rb)"/>
+  </g>
+  <!-- distant reef silhouette -->
+  <path d="M0 900 L0 800 Q300 760 600 800 Q900 840 1200 795 Q1500 760 1920 800 L1920 900Z" fill="#03151b" opacity="0.7"/>
+  <g fill="#eaf2f1" opacity="0.1"><circle cx="300" cy="240" r="2.5"/><circle cx="700" cy="180" r="2"/><circle cx="1100" cy="260" r="2.5"/><circle cx="1500" cy="200" r="2"/><circle cx="900" cy="360" r="2"/><circle cx="1700" cy="320" r="2.5"/></g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Divers exploring an offshore pinnacle surrounded by fish">
+  <defs>
+    <linearGradient id="wp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2ba0b8"/><stop offset="0.55" stop-color="#0e5a6e"/><stop offset="1" stop-color="#041a22"/></linearGradient>
+    <linearGradient id="rp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cff2f9" stop-opacity="0.45"/><stop offset="1" stop-color="#cff2f9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wp)"/>
+  <g opacity="0.4"><polygon points="300,-20 400,-20 260,700 180,700" fill="url(#rp)"/><polygon points="720,-20 800,-20 760,660 680,660" fill="url(#rp)"/></g>
+  <!-- pinnacle -->
+  <path d="M500 900 L560 300 Q600 240 640 300 L720 900Z" fill="#04191f"/>
+  <path d="M540 900 L590 380 L700 900Z" fill="#062a35" opacity="0.8"/>
+  <g stroke="#ff6b5a" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.55"><path d="M600 360 q-24 -40 0 -70 M600 360 q4 -46 26 -60"/><path d="M660 520 q30 -30 60 -20"/></g>
+  <!-- fish ball -->
+  <g fill="#eaf2f1" opacity="0.35"><circle cx="360" cy="360" r="150"/></g>
+  <g fill="#0e5a6e" opacity="0.5"><circle cx="360" cy="360" r="150"/></g>
+  <g fill="#eaf2f1" opacity="0.55">
+    <g transform="translate(300 320)"><path d="M0 0 q16 -8 32 0 q-16 8 -32 0z"/><path d="M0 0 l-10 -6 0 12z"/></g>
+    <g transform="translate(380 300) scale(0.8)"><path d="M0 0 q16 -8 32 0 q-16 8 -32 0z"/><path d="M0 0 l-10 -6 0 12z"/></g>
+    <g transform="translate(420 380) scale(0.9)"><path d="M0 0 q16 -8 32 0 q-16 8 -32 0z"/><path d="M0 0 l-10 -6 0 12z"/></g>
+    <g transform="translate(320 420) scale(0.7)"><path d="M0 0 q16 -8 32 0 q-16 8 -32 0z"/><path d="M0 0 l-10 -6 0 12z"/></g>
+    <g transform="translate(350 360)"><path d="M0 0 q16 -8 32 0 q-16 8 -32 0z"/><path d="M0 0 l-10 -6 0 12z"/></g>
+  </g>
+  <!-- divers -->
+  <g fill="#03151b" opacity="0.9" transform="translate(880 300) rotate(8)">
+    <ellipse cx="0" cy="0" rx="54" ry="20"/><circle cx="58" cy="-4" r="16"/><rect x="-60" y="-18" width="26" height="36" rx="8"/>
+    <path d="M-74 -20 l-26 -12 -4 12 22 16z"/><path d="M-74 20 l-26 12 -4 -12 22 -16z"/>
+  </g>
+  <g fill="#03151b" opacity="0.85" transform="translate(950 430) rotate(14) scale(0.8)">
+    <ellipse cx="0" cy="0" rx="54" ry="20"/><circle cx="58" cy="-4" r="16"/><rect x="-60" y="-18" width="26" height="36" rx="8"/>
+    <path d="M-74 -20 l-26 -12 -4 12 22 16z"/><path d="M-74 20 l-26 12 -4 -12 22 -16z"/>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="200" cy="200" r="2.5"/><circle cx="1000" cy="180" r="2"/><circle cx="150" cy="500" r="2"/><circle cx="1080" cy="420" r="2.5"/><circle cx="820" cy="600" r="2"/></g>
+</svg>

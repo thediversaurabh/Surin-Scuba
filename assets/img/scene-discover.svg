@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A first-time diver guided by an instructor in shallow water">
+  <defs>
+    <linearGradient id="wd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#78d4e6"/><stop offset="0.55" stop-color="#2ba0b8"/><stop offset="1" stop-color="#0e5a6e"/></linearGradient>
+    <linearGradient id="rd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eafaff" stop-opacity="0.55"/><stop offset="1" stop-color="#eafaff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wd)"/>
+  <g opacity="0.5"><polygon points="260,-20 380,-20 220,620 140,620" fill="url(#rd)"/><polygon points="640,-20 720,-20 680,600 600,600" fill="url(#rd)"/><polygon points="900,-20 1000,-20 960,600 880,600" fill="url(#rd)" opacity="0.8"/></g>
+  <!-- shallow reef -->
+  <path d="M0 900 L0 760 Q300 720 600 760 Q900 800 1200 750 L1200 900Z" fill="#0d5063" opacity="0.85"/>
+  <g stroke="#ff6b5a" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"><path d="M980 770 q-24 -56 4 -96 M980 770 q10 -62 40 -84"/></g>
+  <!-- instructor -->
+  <g transform="translate(520 430) rotate(6)" fill="#04191f">
+    <ellipse cx="0" cy="0" rx="64" ry="24"/><circle cx="70" cy="-4" r="20"/><rect x="-70" y="-22" width="32" height="44" rx="12"/>
+    <path d="M-86 -24 l-30 -14 -4 14 26 18z"/><path d="M-86 24 l-30 14 -4 -14 26 -18z"/>
+    <path d="M40 8 q60 20 96 4" stroke="#04191f" stroke-width="26" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- learner -->
+  <g transform="translate(700 470) rotate(10) scale(0.9)" fill="#062a35">
+    <ellipse cx="0" cy="0" rx="60" ry="22"/><circle cx="66" cy="-4" r="18"/><rect x="-64" y="-20" width="30" height="40" rx="12"/>
+    <path d="M-80 -22 l-28 -12 -4 12 24 16z"/><path d="M-80 22 l-28 12 -4 -12 24 -16z"/>
+  </g>
+  <g fill="#eafaff" opacity="0.55"><circle cx="560" cy="330" r="8"/><circle cx="590" cy="280" r="5"/><circle cx="560" cy="240" r="9"/><circle cx="610" cy="190" r="4"/></g>
+  <g fill="#ffffff" opacity="0.14"><circle cx="200" cy="230" r="2.5"/><circle cx="1000" cy="200" r="2"/><circle cx="300" cy="360" r="2"/><circle cx="1080" cy="380" r="2.5"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Close-up of a nudibranch on soft coral">
+  <defs>
+    <linearGradient id="wmac" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177789"/><stop offset="1" stop-color="#041a22"/></linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#wmac)"/>
+  <!-- soft coral background -->
+  <g stroke="#0a4658" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M200 1000 q-40 -400 60 -560 M400 1000 q0 -420 80 -600 M700 1000 q60 -360 -20 -560"/>
+  </g>
+  <g fill="#7fe0ef" opacity="0.5"><circle cx="260" cy="440" r="10"/><circle cx="480" cy="400" r="12"/><circle cx="680" cy="440" r="9"/><circle cx="360" cy="360" r="8"/><circle cx="560" cy="340" r="10"/></g>
+  <!-- nudibranch -->
+  <g transform="translate(500 560) rotate(6)">
+    <path d="M-140 0 q140 -70 280 0 q-40 60 -140 60 q-100 0 -140 -60z" fill="#ff6b5a"/>
+    <g stroke="#ffd2c9" stroke-width="8" stroke-linecap="round">
+      <path d="M-80 -20 v-40 M-40 -30 v-46 M0 -34 v-50 M40 -30 v-46 M80 -20 v-40"/>
+    </g>
+    <path d="M120 -6 q40 -30 60 -70" stroke="#ff6b5a" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M130 6 q46 -6 78 -40" stroke="#ff6b5a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="200" cy="200" r="2.5"/><circle cx="800" cy="240" r="2"/><circle cx="850" cy="500" r="2.5"/></g>
+</svg>

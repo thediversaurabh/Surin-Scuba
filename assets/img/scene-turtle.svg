@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A green sea turtle gliding over a reef">
+  <defs>
+    <linearGradient id="wt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb4cd"/><stop offset="0.5" stop-color="#137386"/><stop offset="1" stop-color="#06232e"/>
+    </linearGradient>
+    <linearGradient id="rt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff7fc" stop-opacity="0.5"/><stop offset="1" stop-color="#dff7fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#wt)"/>
+  <g opacity="0.45"><polygon points="180,-20 300,-20 120,760 40,760" fill="url(#rt)"/><polygon points="560,-20 640,-20 600,700 520,700" fill="url(#rt)" opacity="0.8"/><polygon points="820,-20 920,-20 900,720 800,720" fill="url(#rt)" opacity="0.7"/></g>
+  <!-- reef floor -->
+  <path d="M0 1250 L0 1050 Q200 990 400 1055 Q620 985 840 1060 Q940 1030 1000 1055 L1000 1250Z" fill="#052029"/>
+  <g stroke="#ff6b5a" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"><path d="M280 1058 q-26 -70 6 -116 M280 1058 q8 -78 44 -104 M280 1058 q38 -56 86 -66"/></g>
+  <!-- turtle -->
+  <g transform="translate(520 540) rotate(-16)">
+    <g fill="#04191f">
+      <!-- shell -->
+      <path d="M0 0 q120 -70 240 0 q40 90 0 180 q-120 70 -240 0 q-40 -90 0 -180z"/>
+      <!-- head -->
+      <ellipse cx="270" cy="70" rx="50" ry="38"/>
+      <!-- front flippers -->
+      <path d="M40 -30 q-120 -90 -230 -60 q60 60 120 70 q60 10 110 20z"/>
+      <path d="M40 210 q-120 90 -230 60 q60 -60 120 -70 q60 -10 110 -20z"/>
+      <!-- rear flippers -->
+      <path d="M210 200 q40 70 6 120 q-40 -40 -40 -96z"/>
+      <path d="M210 -20 q40 -70 6 -120 q-40 40 -40 96z"/>
+    </g>
+    <!-- shell scutes -->
+    <g stroke="#0e5a6e" stroke-width="4" fill="none" opacity="0.7">
+      <path d="M120 20 v150 M50 40 q70 50 0 120 M190 40 q-70 50 0 120"/>
+    </g>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="150" cy="260" r="2.5"/><circle cx="700" cy="200" r="2"/><circle cx="850" cy="360" r="2.5"/><circle cx="250" cy="420" r="2"/><circle cx="600" cy="820" r="2.5"/><circle cx="120" cy="700" r="2"/></g>
+</svg>

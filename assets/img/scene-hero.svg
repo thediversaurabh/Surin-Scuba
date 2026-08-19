@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A diver descending through sunlit water above a coral reef">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb4cd"/>
+      <stop offset="0.35" stop-color="#1b8a9e"/>
+      <stop offset="0.7" stop-color="#0e5a6e"/>
+      <stop offset="1" stop-color="#06232e"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6f6fb" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#d6f6fb" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.32" cy="-0.05" r="0.7">
+      <stop offset="0" stop-color="#e7fbff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#e7fbff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#water)"/>
+  <rect width="1920" height="1080" fill="url(#sun)"/>
+
+  <!-- light rays -->
+  <g opacity="0.5">
+    <polygon points="480,-40 620,-40 400,900 320,900" fill="url(#ray)"/>
+    <polygon points="720,-40 800,-40 700,760 640,760" fill="url(#ray)" opacity="0.8"/>
+    <polygon points="980,-40 1120,-40 980,820 880,820" fill="url(#ray)" opacity="0.7"/>
+    <polygon points="1320,-40 1400,-40 1420,700 1340,700" fill="url(#ray)" opacity="0.6"/>
+  </g>
+
+  <!-- reef silhouette -->
+  <g fill="#041a22" opacity="0.9">
+    <path d="M0 1080 L0 900 Q120 840 240 890 Q320 820 430 880 Q560 810 700 900 Q820 840 960 910 Q1120 850 1280 915 Q1450 860 1620 905 Q1780 870 1920 910 L1920 1080 Z"/>
+  </g>
+  <g fill="#06232e" opacity="0.8">
+    <path d="M150 900 q30 -80 60 -6 q10 -60 30 0 z"/>
+    <path d="M1180 912 q40 -110 80 -8 q14 -70 34 0 z"/>
+    <path d="M820 902 q26 -70 52 -6 z"/>
+  </g>
+  <!-- coral fan accents -->
+  <g stroke="#ff6b5a" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M300 890 q-20 -40 4 -70 M300 890 q4 -46 30 -64 M300 890 q26 -34 58 -40"/>
+    <path d="M1500 902 q-18 -36 4 -64 M1500 902 q6 -42 30 -58"/>
+  </g>
+
+  <!-- descending diver -->
+  <g transform="translate(1150 360) rotate(24)" fill="#03151b">
+    <ellipse cx="0" cy="0" rx="86" ry="34"/>
+    <circle cx="92" cy="-6" r="26"/>
+    <rect x="-96" y="-30" width="44" height="60" rx="14"/>
+    <path d="M-118 -34 l-40 -20 -6 18 34 26 z"/>
+    <path d="M-118 34 l-40 20 -6 -18 34 -26 z"/>
+    <rect x="60" y="-2" width="52" height="10" rx="5"/>
+  </g>
+  <g fill="#03151b" opacity="0.85" transform="translate(1150 360) rotate(24)">
+    <rect x="-92" y="-26" width="10" height="52" rx="5" fill="#0e5a6e"/>
+  </g>
+  <!-- bubbles -->
+  <g fill="#d6f6fb" opacity="0.5">
+    <circle cx="1250" cy="300" r="6"/><circle cx="1272" cy="256" r="4"/>
+    <circle cx="1240" cy="220" r="7"/><circle cx="1290" cy="180" r="3"/>
+    <circle cx="1266" cy="150" r="5"/><circle cx="1305" cy="110" r="4"/>
+  </g>
+
+  <!-- particulate -->
+  <g fill="#eaf2f1" opacity="0.14">
+    <circle cx="220" cy="300" r="2.5"/><circle cx="520" cy="180" r="2"/><circle cx="760" cy="420" r="2.5"/>
+    <circle cx="980" cy="260" r="2"/><circle cx="1380" cy="360" r="2.5"/><circle cx="1620" cy="240" r="2"/>
+    <circle cx="400" cy="520" r="2"/><circle cx="1500" cy="560" r="2.5"/><circle cx="900" cy="600" r="2"/>
+    <circle cx="140" cy="640" r="2"/><circle cx="1720" cy="460" r="2"/><circle cx="640" cy="700" r="2.5"/>
+  </g>
+</svg>

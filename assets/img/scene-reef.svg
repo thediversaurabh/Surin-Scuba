@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A shallow coral garden alive with reef fish">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fc9dc"/><stop offset="0.5" stop-color="#1b8a9e"/>
+      <stop offset="1" stop-color="#0a4658"/>
+    </linearGradient>
+    <linearGradient id="r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff7fc" stop-opacity="0.5"/><stop offset="1" stop-color="#dff7fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#w)"/>
+  <g opacity="0.5"><polygon points="240,-20 340,-20 200,620 140,620" fill="url(#r)"/><polygon points="620,-20 700,-20 640,560 580,560" fill="url(#r)" opacity="0.8"/><polygon points="900,-20 1000,-20 940,600 860,600" fill="url(#r)" opacity="0.7"/></g>
+  <!-- fish -->
+  <g fill="#eaf2f1" opacity="0.5">
+    <g transform="translate(760 260)"><path d="M0 0 q26 -14 52 0 q-26 14 -52 0z"/><path d="M0 0 l-16 -9 0 18z"/></g>
+    <g transform="translate(840 320) scale(0.8)"><path d="M0 0 q26 -14 52 0 q-26 14 -52 0z"/><path d="M0 0 l-16 -9 0 18z"/></g>
+    <g transform="translate(700 360) scale(0.7)"><path d="M0 0 q26 -14 52 0 q-26 14 -52 0z"/><path d="M0 0 l-16 -9 0 18z"/></g>
+  </g>
+  <g fill="#ff6b5a" opacity="0.7">
+    <g transform="translate(430 540)"><path d="M0 0 q22 -12 44 0 q-22 12 -44 0z"/><path d="M0 0 l-13 -8 0 16z"/></g>
+    <g transform="translate(500 560) scale(0.8)"><path d="M0 0 q22 -12 44 0 q-22 12 -44 0z"/><path d="M0 0 l-13 -8 0 16z"/></g>
+  </g>
+  <!-- reef floor + corals -->
+  <path d="M0 900 L0 640 Q160 590 320 640 Q460 570 620 650 Q800 590 980 655 Q1100 615 1200 650 L1200 900Z" fill="#083744"/>
+  <g stroke="#ff6b5a" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.75">
+    <path d="M360 650 q-30 -70 6 -120 M360 650 q6 -80 46 -110 M360 650 q40 -60 92 -70"/>
+  </g>
+  <g stroke="#7fe0ef" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M840 655 q-26 -60 4 -100 M840 655 q10 -66 40 -90 M840 655 q34 -50 78 -58"/>
+  </g>
+  <g fill="#0a4658"><ellipse cx="160" cy="660" rx="80" ry="34"/><ellipse cx="1080" cy="668" rx="70" ry="28"/></g>
+  <!-- anemone -->
+  <g transform="translate(540 640)" opacity="0.8"><g stroke="#5fc9dc" stroke-width="4" stroke-linecap="round">
+    <path d="M0 0 v-40 M0 0 l-20 -34 M0 0 l20 -34 M0 0 l-36 -20 M0 0 l36 -20 M0 0 l-14 -40 M0 0 l14 -40"/></g></g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="200" cy="200" r="2.5"/><circle cx="500" cy="150" r="2"/><circle cx="900" cy="220" r="2.5"/><circle cx="1050" cy="140" r="2"/><circle cx="350" cy="300" r="2"/><circle cx="700" cy="120" r="2"/></g>
+</svg>

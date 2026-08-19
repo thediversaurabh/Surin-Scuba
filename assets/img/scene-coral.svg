@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A healthy coral garden in sunlit shallows">
+  <defs>
+    <linearGradient id="wco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fd0e2"/><stop offset="0.55" stop-color="#2394ab"/><stop offset="1" stop-color="#0a4658"/></linearGradient>
+    <linearGradient id="rco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eafaff" stop-opacity="0.5"/><stop offset="1" stop-color="#eafaff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#wco)"/>
+  <g opacity="0.5"><polygon points="220,-20 320,-20 200,500 130,500" fill="url(#rco)"/><polygon points="600,-20 680,-20 640,480 560,480" fill="url(#rco)"/></g>
+  <path d="M0 700 L0 500 Q250 460 500 500 Q750 540 1000 490 L1000 700Z" fill="#083744"/>
+  <g stroke="#ff6b5a" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"><path d="M240 500 q-30 -80 6 -130 M240 500 q8 -90 50 -120 M240 500 q44 -66 100 -78"/></g>
+  <g stroke="#7fe0ef" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"><path d="M640 505 q-28 -70 4 -116 M640 505 q10 -76 44 -100 M640 505 q38 -58 86 -68"/></g>
+  <g fill="#0a4658"><ellipse cx="440" cy="510" rx="90" ry="36"/><ellipse cx="820" cy="516" rx="70" ry="28"/></g>
+  <g fill="#eaf2f1" opacity="0.5"><g transform="translate(560 220)"><path d="M0 0 q20 -10 40 0 q-20 10 -40 0z"/><path d="M0 0 l-12 -7 0 14z"/></g><g transform="translate(620 260) scale(0.8)"><path d="M0 0 q20 -10 40 0 q-20 10 -40 0z"/><path d="M0 0 l-12 -7 0 14z"/></g></g>
+  <g fill="#ffffff" opacity="0.12"><circle cx="200" cy="160" r="2.5"/><circle cx="800" cy="140" r="2"/><circle cx="400" cy="200" r="2"/></g>
+</svg>

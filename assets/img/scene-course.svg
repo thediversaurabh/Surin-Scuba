@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Two divers practising skills in clear blue water">
+  <defs>
+    <linearGradient id="wc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fbdd3"/><stop offset="0.55" stop-color="#177789"/><stop offset="1" stop-color="#072c37"/></linearGradient>
+    <linearGradient id="rc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dff7fc" stop-opacity="0.45"/><stop offset="1" stop-color="#dff7fc" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wc)"/>
+  <g opacity="0.45"><polygon points="300,-20 400,-20 260,660 180,660" fill="url(#rc)"/><polygon points="760,-20 840,-20 800,640 720,640" fill="url(#rc)"/></g>
+  <!-- sandy bottom -->
+  <path d="M0 900 L0 720 Q300 680 600 720 Q900 760 1200 710 L1200 900Z" fill="#0b4353" opacity="0.9"/>
+  <!-- two kneeling divers -->
+  <g transform="translate(430 470)" fill="#04191f">
+    <circle cx="0" cy="-70" r="52"/><rect x="-56" y="-30" width="112" height="150" rx="36"/>
+    <rect x="-18" y="-36" width="36" height="110" rx="16" fill="#062a35"/>
+    <path d="M-56 120 q-30 40 -6 90 l70 0 q6 -40 -8 -90z" opacity="0.9"/>
+    <path d="M56 40 q60 -10 84 -60" stroke="#04191f" stroke-width="34" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(720 500) scale(0.92)" fill="#04191f">
+    <circle cx="0" cy="-70" r="52"/><rect x="-56" y="-30" width="112" height="150" rx="36"/>
+    <rect x="-18" y="-36" width="36" height="110" rx="16" fill="#062a35"/>
+    <path d="M-56 120 q-30 40 -6 90 l70 0 q6 -40 -8 -90z" opacity="0.9"/>
+    <path d="M-56 40 q-60 -10 -84 -60" stroke="#04191f" stroke-width="34" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#dff7fc" opacity="0.5"><circle cx="480" cy="360" r="7"/><circle cx="500" cy="310" r="4"/><circle cx="770" cy="380" r="6"/><circle cx="790" cy="330" r="4"/></g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="200" cy="250" r="2.5"/><circle cx="1000" cy="200" r="2"/><circle cx="150" cy="500" r="2"/><circle cx="1080" cy="440" r="2.5"/></g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A swirling school of barracuda">
+  <defs>
+    <linearGradient id="ws" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2ea1ba"/><stop offset="0.6" stop-color="#0e5a6e"/><stop offset="1" stop-color="#052029"/></linearGradient>
+    <linearGradient id="rs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cff2f9" stop-opacity="0.4"/><stop offset="1" stop-color="#cff2f9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#ws)"/>
+  <g opacity="0.4"><polygon points="240,-20 340,-20 200,700 120,700" fill="url(#rs)"/><polygon points="640,-20 720,-20 680,680 600,680" fill="url(#rs)"/></g>
+  <g fill="#dfeef2" opacity="0.5">
+    <g id="fs"><path d="M0 0 q34 -12 68 0 q-34 12 -68 0z"/><path d="M0 0 l-18 -10 0 20z"/></g>
+  </g>
+  <g fill="#e7f4f7" opacity="0.55">
+    <use href="#fs" transform="translate(300 300) scale(1)"/>
+    <use href="#fs" transform="translate(400 260) scale(0.9)"/>
+    <use href="#fs" transform="translate(480 330) scale(1.05)"/>
+    <use href="#fs" transform="translate(360 400) scale(0.85)"/>
+    <use href="#fs" transform="translate(520 440) scale(0.95)"/>
+    <use href="#fs" transform="translate(280 500) scale(1)"/>
+    <use href="#fs" transform="translate(600 380) scale(0.8)"/>
+    <use href="#fs" transform="translate(440 540) scale(0.9)"/>
+    <use href="#fs" transform="translate(340 220) scale(0.75)"/>
+    <use href="#fs" transform="translate(560 280) scale(0.85)"/>
+    <use href="#fs" transform="translate(660 480) scale(0.9)"/>
+    <use href="#fs" transform="translate(500 600) scale(0.8)"/>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="180" cy="240" r="2.5"/><circle cx="800" cy="220" r="2"/><circle cx="150" cy="560" r="2"/><circle cx="840" cy="560" r="2.5"/></g>
+</svg>

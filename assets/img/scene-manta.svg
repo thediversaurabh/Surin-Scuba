@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A manta ray gliding overhead">
+  <defs>
+    <linearGradient id="wm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39aec7"/><stop offset="0.6" stop-color="#0e5a6e"/><stop offset="1" stop-color="#041a22"/></linearGradient>
+    <linearGradient id="rm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cff2f9" stop-opacity="0.5"/><stop offset="1" stop-color="#cff2f9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#wm)"/>
+  <g opacity="0.5"><polygon points="220,-20 340,-20 180,700 100,700" fill="url(#rm)"/><polygon points="620,-20 720,-20 680,680 600,680" fill="url(#rm)"/></g>
+  <!-- manta -->
+  <g transform="translate(500 420) rotate(-6)" fill="#04191f">
+    <path d="M0 0 q-260 -120 -360 40 q120 40 220 30 q80 -6 140 -20z"/>
+    <path d="M0 0 q260 -120 360 40 q-120 40 -220 30 q-80 -6 -140 -20z"/>
+    <ellipse cx="0" cy="10" rx="70" ry="60"/>
+    <!-- cephalic fins -->
+    <path d="M-40 -40 q-30 -50 -10 -90 q26 30 22 78z"/>
+    <path d="M40 -40 q30 -50 10 -90 q-26 30 -22 78z"/>
+    <!-- tail -->
+    <path d="M0 60 q6 120 2 200" stroke="#04191f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="200" cy="240" r="2.5"/><circle cx="760" cy="200" r="2"/><circle cx="150" cy="560" r="2"/><circle cx="820" cy="520" r="2.5"/><circle cx="500" cy="760" r="2"/></g>
+</svg>

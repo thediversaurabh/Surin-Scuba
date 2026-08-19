@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A reef shark passing in the blue">
+  <defs>
+    <linearGradient id="wsh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2ea1ba"/><stop offset="0.6" stop-color="#0e5a6e"/><stop offset="1" stop-color="#041a22"/></linearGradient>
+    <linearGradient id="rsh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cff2f9" stop-opacity="0.4"/><stop offset="1" stop-color="#cff2f9" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#wsh)"/>
+  <g opacity="0.4"><polygon points="220,-20 320,-20 200,480 120,480" fill="url(#rsh)"/><polygon points="640,-20 720,-20 680,460 600,460" fill="url(#rsh)"/></g>
+  <g transform="translate(500 340) rotate(-4)" fill="#04191f">
+    <path d="M-260 0 q120 -70 300 -46 q120 18 220 6 q-70 40 -170 46 q30 34 8 70 q-40 -24 -70 -50 q-160 20 -296 -20 q40 -16 6 -32z"/>
+    <path d="M40 -46 q30 -80 70 -110 q6 60 -18 122z"/>
+    <path d="M120 34 q10 40 -6 78 q-30 -30 -30 -66z"/>
+  </g>
+  <g fill="#eaf2f1" opacity="0.12"><circle cx="180" cy="180" r="2.5"/><circle cx="820" cy="160" r="2"/><circle cx="300" cy="520" r="2"/><circle cx="760" cy="520" r="2.5"/></g>
+</svg>

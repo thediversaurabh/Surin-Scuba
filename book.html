@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Dive or Course | Surin Scuba, Andaman Islands</title>
+  <meta name="description" content="Request your dive or PADI course with Surin Scuba. Tell us your experience and dates — we confirm availability within a day." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E🤿%3C/text%3E%3C/svg%3E" />
+</head>
+<body data-page="book">
+
+  <header class="site-header">
+    <div class="container container--wide">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="Surin Scuba home">
+          <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="20" cy="20" r="18.5" stroke="#4FC3D6" stroke-width="1.4"/>
+            <path d="M8 24c3-4 5-4 8 0s5 4 8 0 5-4 8 0" stroke="#FF6B5A" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M20 6v9m0 0l-4-3m4 3l4-3" stroke="#EAF2F1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Surin Scuba<small>Andaman Islands</small></span>
+        </a>
+        <ul class="nav__links">
+          <li><a href="dive-sites.html">Dive Sites</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="nav__cta"><a class="btn" href="book.html" aria-current="page">Book a Dive
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a></li>
+        </ul>
+        <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="depth-gauge" data-max-depth="20" aria-hidden="true">
+    <span class="depth-gauge__readout">0m</span>
+    <div class="depth-gauge__track"><span class="depth-gauge__thumb"></span></div>
+    <span class="depth-gauge__label">Depth</span>
+  </aside>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__media"><img src="assets/img/scene-coral.svg" alt="A sunlit coral garden" /></div>
+      <div class="container container--wide page-hero__inner">
+        <p class="breadcrumb"><a href="index.html">Home</a> / Book</p>
+        <h1>Request your place in the water.</h1>
+        <p class="lead">Three quick steps. This is a booking request — we'll check availability and confirm your dive or course by email within a day, then send payment details.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:clamp(2.5rem,5vw,4rem);">
+      <div class="container container--wide">
+        <div class="booking">
+
+          <!-- FORM -->
+          <div class="booking__form">
+            <div class="steps" aria-hidden="true">
+              <div class="steps__item is-active"><div class="steps__bar"><i></i></div><span class="steps__label">1 · Experience</span></div>
+              <div class="steps__item"><div class="steps__bar"><i></i></div><span class="steps__label">2 · Details</span></div>
+              <div class="steps__item"><div class="steps__bar"><i></i></div><span class="steps__label">3 · You</span></div>
+            </div>
+
+            <form data-booking-form novalidate>
+
+              <!-- STEP 1 -->
+              <fieldset class="step is-active">
+                <h3>What kind of diving?</h3>
+                <p class="lead">Pick the closest match — we'll fine-tune it together.</p>
+                <div class="choice-grid" role="radiogroup" aria-label="Experience type">
+                  <label class="choice">
+                    <input type="radio" name="experience" value="discover" required />
+                    <span class="choice__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8" stroke-linecap="round"/></svg></span>
+                    <b>Try Diving</b>
+                    <span>First time underwater. No certification needed.</span>
+                  </label>
+                  <label class="choice">
+                    <input type="radio" name="experience" value="fun-dives" required />
+                    <span class="choice__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 14c3-2 5-2 8 0s5 2 8 0M4 9c3-2 5-2 8 0s5 2 8 0" stroke-linecap="round"/></svg></span>
+                    <b>Fun Dives</b>
+                    <span>Already certified and ready to explore the reefs.</span>
+                  </label>
+                  <label class="choice">
+                    <input type="radio" name="experience" value="course" required />
+                    <span class="choice__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z" stroke-linejoin="round"/><path d="M7 9v5c0 1 2 3 5 3s5-2 5-3V9" stroke-linecap="round"/></svg></span>
+                    <b>PADI Course</b>
+                    <span>Learn to dive or level up your certification.</span>
+                  </label>
+                </div>
+                <div class="step-nav">
+                  <button type="button" class="btn btn--ghost btn--back">Back</button>
+                  <button type="button" class="btn btn--next">Continue
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                </div>
+              </fieldset>
+
+              <!-- STEP 2 -->
+              <fieldset class="step">
+                <h3>The details</h3>
+                <p class="lead">When you're coming, and who's diving.</p>
+                <div class="field field--full">
+                  <label for="offering">Dive or course <span class="req">*</span></label>
+                  <select id="offering" name="offering" class="select" required>
+                    <option value="" disabled selected>Choose one…</option>
+                    <optgroup label="Try Diving">
+                      <option>Discover Scuba Diving</option>
+                    </optgroup>
+                    <optgroup label="Fun Dives">
+                      <option>Single Fun Dive</option>
+                      <option>Two-Tank Day Trip</option>
+                      <option>Three-Dive Explorer Day</option>
+                      <option>Night Dive</option>
+                    </optgroup>
+                    <optgroup label="PADI Courses">
+                      <option>PADI Scuba Diver</option>
+                      <option>PADI Open Water Diver</option>
+                      <option>Advanced Open Water</option>
+                      <option>Rescue Diver</option>
+                      <option>Divemaster</option>
+                      <option>Specialty Course</option>
+                    </optgroup>
+                    <option>Not sure yet — help me choose</option>
+                  </select>
+                  <span class="error-text">Please choose a dive or course.</span>
+                </div>
+                <div class="field-grid">
+                  <div class="field">
+                    <label for="date">Preferred date <span class="req">*</span></label>
+                    <input id="date" name="date" type="date" class="input" required />
+                    <span class="error-text">Pick a date to start from.</span>
+                  </div>
+                  <div class="field">
+                    <label for="participants">Divers <span class="req">*</span></label>
+                    <select id="participants" name="participants" class="select" required>
+                      <option value="1">1 diver</option>
+                      <option value="2">2 divers</option>
+                      <option value="3">3 divers</option>
+                      <option value="4">4 divers</option>
+                      <option value="5+">5 or more</option>
+                    </select>
+                  </div>
+                  <div class="field field--full">
+                    <label for="level">Your diving experience</label>
+                    <select id="level" name="level" class="select">
+                      <option value="none">None — never dived</option>
+                      <option value="tried">Tried diving once or twice</option>
+                      <option value="ow">Open Water certified</option>
+                      <option value="aow">Advanced certified</option>
+                      <option value="rescue+">Rescue or higher</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="step-nav can-back">
+                  <button type="button" class="btn btn--ghost btn--back">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" style="transform:rotate(180deg)"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Back</button>
+                  <button type="button" class="btn btn--next">Continue
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                </div>
+              </fieldset>
+
+              <!-- STEP 3 -->
+              <fieldset class="step">
+                <h3>Where we'll reach you</h3>
+                <p class="lead">We'll confirm availability and send next steps here.</p>
+                <div class="field-grid">
+                  <div class="field">
+                    <label for="name">Full name <span class="req">*</span></label>
+                    <input id="name" name="name" type="text" class="input" placeholder="Your name" required />
+                    <span class="error-text">Please tell us your name.</span>
+                  </div>
+                  <div class="field">
+                    <label for="email">Email <span class="req">*</span></label>
+                    <input id="email" name="email" type="email" class="input" placeholder="you@email.com" required />
+                    <span class="error-text">A valid email lets us reply.</span>
+                  </div>
+                  <div class="field field--full">
+                    <label for="phone">Phone / WhatsApp</label>
+                    <input id="phone" name="phone" type="tel" class="input" placeholder="+91 …" />
+                  </div>
+                  <div class="field field--full">
+                    <label for="notes">Anything else?</label>
+                    <textarea id="notes" name="notes" class="textarea" placeholder="Flexible dates, group details, questions, dietary needs…"></textarea>
+                  </div>
+                </div>
+                <div class="step-nav can-back">
+                  <button type="button" class="btn btn--ghost btn--back">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" style="transform:rotate(180deg)"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Back</button>
+                  <button type="submit" class="btn btn--submit">Send booking request
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+
+            <!-- SUCCESS -->
+            <div class="booking__success" role="status" aria-live="polite">
+              <div class="success-mark">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 style="color:var(--ink);">Request received — thank you.</h3>
+              <p class="lead" style="margin:0.8rem auto 1.4rem;">We've got your request for <b data-sum-offer>your dive</b> on <b data-sum-date>your date</b> for <span data-sum-people>1 diver</span>. Watch your inbox — we'll confirm availability within a day.</p>
+              <p class="summary-line">Need us sooner? WhatsApp <b>+91 3192 000 000</b></p>
+              <div class="hero__cta" style="justify-content:center;margin-top:2rem;">
+                <a class="btn btn--ghost" href="index.html">Back to home</a>
+                <a class="btn btn--ghost" href="gallery.html">Browse the gallery</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ASIDE -->
+          <aside class="booking__aside">
+            <div class="info-card">
+              <h4>What happens next</h4>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>Reply within 24 hours</b><span>We confirm availability for your dates, then send payment details.</span></div></div>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 12a8 8 0 10-16 0 8 8 0 0016 0z"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>No payment now</b><span>Nothing is charged until your dive is confirmed.</span></div></div>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 14c3-2 5-2 8 0s5 2 8 0" stroke-linecap="round"/><path d="M4 9c3-2 5-2 8 0s5 2 8 0" stroke-linecap="round"/></svg></span><div><b>Flexible on weather</b><span>If the sea won't cooperate, we reschedule — no fuss.</span></div></div>
+            </div>
+            <div class="info-card">
+              <h4>Reach us directly</h4>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b><a href="mailto:dive@surinscuba.com">dive@surinscuba.com</a></b><span>Questions before you book</span></div></div>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-3 2a11 11 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke-linejoin="round"/></svg></span><div><b><a href="tel:+913192000000">+91 3192 000 000</a></b><span>Call or WhatsApp, 8am–8pm IST</span></div></div>
+              <div class="info-row"><span class="ir-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11z" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Beach No. 3, Havelock</b><span>Swaraj Dweep, Andaman Islands</span></div></div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html" aria-label="Surin Scuba home">
+            <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <circle cx="20" cy="20" r="18.5" stroke="#4FC3D6" stroke-width="1.4"/>
+              <path d="M8 24c3-4 5-4 8 0s5 4 8 0 5-4 8 0" stroke="#FF6B5A" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M20 6v9m0 0l-4-3m4 3l4-3" stroke="#EAF2F1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Surin Scuba<small>Andaman Islands</small></span>
+          </a>
+          <p>A PADI dive centre on the Andaman Islands, taking small groups into some of the least-dived reefs in Asia — carefully, and with respect.</p>
+          <div class="badges"><span class="badge">PADI 5★</span><span class="badge">EFR Certified</span><span class="badge">Reef-Safe</span></div>
+        </div>
+        <div class="footer__col"><h5>Dive</h5><ul><li><a href="dive-sites.html">Dive sites</a></li><li><a href="courses.html">PADI courses</a></li><li><a href="book.html">Fun dives</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+        <div class="footer__col"><h5>Centre</h5><ul><li><a href="about.html">About us</a></li><li><a href="about.html#safety">Safety</a></li><li><a href="about.html#conservation">Conservation</a></li><li><a href="book.html">Contact</a></li></ul></div>
+        <div class="footer__col"><h5>Get in touch</h5><ul><li><a href="mailto:dive@surinscuba.com">dive@surinscuba.com</a></li><li><a href="tel:+913192000000">+91 3192 000 000</a></li><li><span style="color:var(--ink-soft);font-size:0.94rem;">Beach No. 3, Havelock<br/>(Swaraj Dweep), Andaman</span></li></ul></div>
+      </div>
+      <div class="footer__bar">
+        <p>© <span data-year>2026</span> Surin Scuba · Dive responsibly.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M14 8h2V5h-2c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.2l.8-3H14V8z" stroke-linejoin="round"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M11 9.5l3.5 2.5L11 14.5v-5z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
