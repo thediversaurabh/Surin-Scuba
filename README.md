@@ -85,9 +85,10 @@ e.g. `book.html?type=course&offer=PADI%20Open%20Water%20Diver`
 
 ## Content to replace before launch
 
-The copy, prices (₹), phone/email, address, dive-site details, and testimonials are realistic
-**placeholders**. Update them with the centre's real details — search for `surinscuba.com`,
-`+91 3192 000 000`, and `Beach No. 3, Havelock` to find the contact points.
+The phone (**+91 90468 84818**) and email (**surinscuba@gmail.com**) are the centre's real
+contact details. The copy, prices (₹), address, dive-site details, and testimonials are still
+realistic **placeholders** — update them with the centre's real details. Search for
+`Beach No. 3, Havelock` to find the placeholder address.
 
 ## Accessibility & performance
 
