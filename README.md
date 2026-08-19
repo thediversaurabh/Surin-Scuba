@@ -85,10 +85,10 @@ e.g. `book.html?type=course&offer=PADI%20Open%20Water%20Diver`
 
 ## Content to replace before launch
 
-The phone (**+91 90468 84818**) and email (**surinscuba@gmail.com**) are the centre's real
-contact details. The copy, prices (₹), address, dive-site details, and testimonials are still
-realistic **placeholders** — update them with the centre's real details. Search for
-`Beach No. 3, Havelock` to find the placeholder address.
+The phone (**+91 90468 84818**, also linked as WhatsApp via `wa.me`), email
+(**surinscuba@gmail.com**), and address (**Beach No. 2, Havelock Islands / Swaraj Dweep, South
+Andaman — 744211**) are the centre's real details. The copy, prices (₹), dive-site details, and
+testimonials are still realistic **placeholders** — update them with the centre's real details.
 
 ## Accessibility & performance
 
